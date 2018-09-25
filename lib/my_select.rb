@@ -3,5 +3,5 @@ def my_select(collection)
   collection.each do |ele|
     new_arr << yield(ele)
   end 
-  # collection
+  new_arr
 end

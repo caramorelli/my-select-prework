@@ -1,5 +1,5 @@
 def my_select(collection)
-  collection.each do |ele|
+  collection.keep_if do |ele|
     yield(ele)
   end 
 end
